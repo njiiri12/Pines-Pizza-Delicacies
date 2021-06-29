@@ -1,0 +1,159 @@
+.landing {
+    background-image: url(../images/pizza_pic1.jpg);
+    background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  padding-bottom: 50px;
+  position: relative;
+  overflow-x: hidden;
+}
+   
+header {
+  background:url(https://images.wallpaperscraft.com/image/pizza_pastries_board_211578_1280x720.jpg);
+  text-align: center;
+  font-weight: bolder;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 85% 85% / 30%;
+}
+ 
+
+h1 {
+    letter-spacing: 8px;
+    color: rgb(43, 36, 143);
+    font-weight: bolder;
+    font-family: 'Wallpoet', cursive;
+    font-size: 60px;
+    text-shadow: 2px 2px 5px rgb(248, 239, 244); 
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.button1 {
+    background-color: #e97910;
+}
+.arrow {
+    margin-top: 200px;
+}
+|*{
+    box-sizing: border-box; 
+  }
+   body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  .row {
+      margin: 0 -5px;
+    }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+#menu {
+      margin-top: 30px;
+  }
+.menu-text {
+    text-align: center;
+}
+.hoover2, .hoover3, .hoover4, .hoover5, .hoover6, .hoover7, .hoover8,.hoover9 {
+    height: 70%;
+    width: 70%;
+    background: none;
+    top: 0px;
+    border: 10px solid blue;
+    color: blue;
+    text-align: left !important;
+    padding: 20px;
+    display: none;
+  }
+
+.card {
+    margin-top: 30px;
+}
+.order-overlay {
+    height: inherit;
+    padding: 20px;
+    background-color: rgba(153, 151, 151, 0.9);
+    border-radius: 20px;
+}
+.about {
+  text-align: center;
+  padding: 20px;
+}
+.summary {
+  text-align: center;
+}
+h2 {
+  font-family: monospace;
+}
+h3 {
+  font-weight: bolder;
+}
+.choice {
+  text-align: center;
+}
+.order-summary {
+  text-align: center;
+}
+.jumbotron {
+  text-align: center;
+  color: purple;
+  background-image: url(https://images.wallpaperscraft.com/image/pizza_food_glass_board_table_73012_1280x720.jpg);
+  color: rgb(25, 13, 133);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  padding-bottom: 50px;
+  position: relative;
+  overflow-x: hidden;
+  margin-top: 20px;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.contact {
+  text-align: center;
+}
+.phone {
+  margin-top: 10px;
+}
+.click-me {
+  margin-top: 10px;
+}
+.cdata {
+  margin-top: 10px;
+}

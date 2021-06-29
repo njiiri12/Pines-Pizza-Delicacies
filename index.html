@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pines Pizza Delicacies</title>
+    <link rel="icon" href="images/title.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+        <header>
+            <div class="view landing">
+              <div class="container">
+                <div class="overlay">
+                    <a class="navbar-brand" href="#">Pines Pizza Delicacies</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse align-items-center" id="collapsibleNavbar">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#about_us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#menu">Our Menu</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>    
+                      </ul>
+                    </div> 
+             </div>
+                </nav>
+     </header>
+     <div class="about" id="about_us"> 
+      <h3>About Us</h3>
+  </div>
+   <div class="container-fluid section" id="about-us">
+      <div class="col-sm-12 d-flex flex-xs-column">
+        <div class="col-sm-7 img text-center about-img">
+            <div class="about-pic">
+              <img src="images/pizzagiphy.gif" alt="about-us" class="container">
+            </div>
+                
+        </div>
+        <div class="container">
+        <div class="col-sm-5 align-items-center">
+          <div class="content">
+            <h3>Who Are We?</h3>
+            <p>Pines Pizza Delicacies, Founded in 2017, is the recognized leader in pizza delivery in town, operating a network of company-owned and franchise-owned stores in the Kenyan market. Pines Pizza Delicacies is a company of exceptional people on a mission to be the best pizza delivery company in the country and if possible Worldwide.</p>
+          </div>
+        </div>
+      </div>
+  </div>
+ <div class="container" id="menu">
+   <h1 class="menu-text"><strong> OUR MENU </strong></h1>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="./images/pizza_pic2.jpg" alt="pizza_pic2">
+        <p>Boerewors</p>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <img src="images/pizza_pic4.jpg" alt="pizza_pic4">
+        <p>pepperoni</p>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card">
+        <img src="./images/pizza_pic5.jpg" alt="pizza_pic5">
+        <p>Chicken Tikka</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <img src="./images/pizza_pic6.jpg" alt="pizza_pic6">
+        <p>Mushroom Pizza</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <img src="./images/pizza_pic3.jpg" alt="pizza_pic3">
+        <p>Cheesy pizza</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <img src="./images/pizza_pic8.jpg" alt="pizza_pic8">
+        <p>Meat Deluxe</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <img src="./images/pizza_pic9.jpg" alt="pizza_pic9">
+        <p>Hawaiian Pizza</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <img src="./images/pizza_pic10.jpg" alt="pizza_pic10">
+        <p>Veg pasta Pizza</p>
+      </div>
+    </div>
+ </div>
+ <div class="container">
+ <div class="orders" id="order">
+    <h1 class="text-center" id="order-pizza">Order Pizza</h1>
+            <form >
+                <label>Pick a Flavour:</label>
+                <select class="custom-select custom-select-md mb-3 flavour" id="flavour" required>
+                    <option value="vegpasta">Veg pasta pizza</option>
+                    <option value="chickentikka">Chicken Tikka</option>
+                    <option value="pepperoni">pepperoni pizza</option>
+                    <option value="cheesy">cheesy pizza</option>
+                    <option value="boerewors">Boerewors</option>
+                    <option value="hawaiian">Hawaiian pizza</option>
+                    <option value="mushroom">Mushroom pizza</option>
+                    <option value="deluxe">Meat Deluxe</option>
+                </select>
+                <label>size of pizza:</label>
+                <select class="custom-select custom-select-md mb-3" id="size" required>
+                    <option value="0">select size..</option>
+                    <option value="regular">Regular @ ksh. 400</option>
+                    <option value="medium">Medium @ ksh. 700</option>
+                    <option value="large">Large @ ksh. 1000</option>
+                </select>
+                <label for="crust">choose the pizza Crust:</label>
+                <select class="custom-select custom-select-md mb-3" id="crust" required>
+                  <option value="0">Select crust..</option>
+                    <option value="thin">Thin Crust @ Ksh. 100</option>
+                    <option value="thick">Thick Crust @ Ksh. 150</option>
+                    <option value="flatbread">FlatBread Crust @ sh. 180</option>
+                    <option value="custom">Custom Crust @ sh. 280</option>
+                </select>
+                <label>choose Toppings @100</label>
+                <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                  <option value="0">select toppings..</option>
+                    <option value="olives">Olives </option>
+                    <option value="pineapple">Pineapple </option>
+                    <option value="sweetcorn">Sweet Corn </option>
+                    <option value="macon">Macon </option>
+                    <option value="mince">Mince </option>
+                  
+                </select>
+                <label for="number">no. of pizzas</label>
+                <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+            <a href="#summary">
+                <button type="submit" class="btn btn-success checkout" id="checkout">
+                    Check out
+                </button>
+              </a>
+       </div>
+ </form>
+</div>
+<div class="order-summary" id="sum-order">
+  <p class="text-center" id="summary">the summary of your order will be displayed below:</p>
+  <ol id="list" class="text-center sum">
+  </ol>
+
+
+  <div class="cdata-overlay">
+      <form action="">
+              <input type="text" class="form-control cdata" placeholder=" Name:">
+              <input type="text" class="form-control cdata" placeholder="phone number: ">
+              <input type="text" class="form-control cdata" placeholder="location: ">
+              <button class="btn bg-success text-center d-block mx-auto go">Make Delivery</button>
+          </form>
+
+          <div class="col-sm-3"></div>
+      </div>
+  </div>
+  <div class="d-block mx-auto text-center">
+      <button class='deliver'>Make Delivery</button>
+      <button class='pickup'>Pick Up</button>
+  </div>
+</div>
+</body>
+<div>
+  <footer>
+    <div class="container-fluid">
+        <div class="jumbotron">
+          <div class="contact" id="contact">
+          <h1 class=" text-center text-white"> Contact Us: </h1>
+          <p class=" text-center text-white">+254 727640789/ pinespizza@gmail.com</p>
+         <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-5 subs">
+              <form>
+                  <div class="email-info">
+                      <div class="form-group fill-all-form">
+                          <input type="email" class="form-control bg-transparent email" id="email" placeholder="Email"
+                                 required="">
+                          <input type="phone" class="form-control bg-transparent phone" id="phone" placeholder="phone number"
+                                 required="">
+                      </div>
+                  </div>
+                  
+              </form>
+          </div>
+          <div class="col-sm-5 feedback">
+              <textarea class="form-control bg-transparent text" id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+          </div>
+          <div class="col-sm-1"></div>
+      </div>
+      <div class=" email-info text-center">
+        <button type="submit" class="btn bg-secondary click-me" onclick="submit();">Submit</button>
+    </div>
+  </div>
+  </div>
+        </div> 
+      </div>
+    </div>
+  </footer>
+</div>
+<script src="js/jquery-3.6.0.slim.js"></script>
+<script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</html>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
