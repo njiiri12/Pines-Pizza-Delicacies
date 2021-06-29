@@ -10,7 +10,7 @@ Basic Git knowledge, including an installed version of Git.
 - Clone this repository to a location in your file system. `
 - Open terminal command line then navigate to the root folder of the application. `cd pines pizza place'
 - Open `index.html` on your browser.
-# Development
+## Development
 Want to contribute? Great!
 To fix a bug or enhance an existing module, follow these steps:
 - Fork the repo
