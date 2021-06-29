@@ -1,7 +1,7 @@
 # PINES PIZZA DELICACIES
 A pizza ordering web application that enables a user to choose the pizza they would like and returns the amount the customer us supposed to pay
 # Author
-Angela Mutyota   
+Yvonne Njiiri  
 ## Prerequisites
 Basic Git knowledge, including an installed version of Git.
 ##### Technologies Used
