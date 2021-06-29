@@ -6,9 +6,9 @@ Yvonne Njiiri
 Basic Git knowledge, including an installed version of Git.
 ##### Technologies Used
 - HTML , CSS & Js
-##### Setup Instructions and Installation
-- Clone this repository to a location in your file system. `git clone https://github.com/Angelamutyota/pop-s-pizza-place.git
-- Open terminal command line then navigate to the root folder of the application. `cd pop's-pizza-place`
+##### Setup Instructions and Installationhttps://github.com/njiiri12/Pines-Pizza-Delicacies.git
+- Clone this repository to a location in your file system. `
+- Open terminal command line then navigate to the root folder of the application. `cd pines pizza place'
 - Open `index.html` on your browser.
 ## Development
 Want to contribute? Great!
